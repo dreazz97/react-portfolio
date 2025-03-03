@@ -7,6 +7,7 @@ import ReplyIcon from '@mui/icons-material/Reply';
 import project_tecnologies from '../../utils/Jsons/projects.json'
 import '../../styles/projects.css'
 import { useNavigate } from 'react-router-dom';
+import Tooltip from '@mui/material/Tooltip';
 
 export default function Projects() {
   const navigate = useNavigate()
@@ -41,10 +42,12 @@ export default function Projects() {
         </div>
         <div id='back-main-container'>
           <div id='go-back-button-container'>
-            <ReplyIcon
-              sx={{ color: '#000', fontSize: '3.5rem', cursor: 'pointer', '&:hover': { color: '#333' } }}
-              onClick={() => navigate('/')}
-            />
+            <Tooltip sx={{color: '#000'}} arrow className='home-content-mail-tooltip' title='Go back'>
+              <ReplyIcon
+                sx={{ color: '#000', fontSize: '3.5rem', cursor: 'pointer', '&:hover': { color: '#333' } }}
+                onClick={() => navigate('/')}
+              />
+            </Tooltip>
           </div>
         </div>
         <Grid container spacing={{ xs: 2, md: 8 }} alignItems='center' justifyContent='center'>

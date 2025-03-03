@@ -9,6 +9,7 @@ import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import ReplyIcon from '@mui/icons-material/Reply';
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Tooltip from '@mui/material/Tooltip';
 
 export default function About() {
 
@@ -22,11 +23,13 @@ export default function About() {
                     <Grid xs={12} md={6}>
                         <div id='about-content-text'>
                             <div id='go-back-button-container'>
-                                <ReplyIcon sx={{
-                                    '&:hover': { color: '#333' },
-                                    cursor: 'pointer',
-                                    fontSize: '2.5rem'
-                                }} onClick={() => navigate('/')} />
+                                <Tooltip placement='left' sx={{color: '#000'}} arrow className='home-content-mail-tooltip' title='Go back'>
+                                    <ReplyIcon sx={{
+                                        '&:hover': { color: '#333' },
+                                        cursor: 'pointer',
+                                        fontSize: '2.5rem'
+                                    }} onClick={() => navigate('/')} />
+                                </Tooltip>
                             </div>
                             {!showSkills &&
                                 <>

@@ -3,7 +3,7 @@
         {
             "title": "Authentication and Authorization Project",
             "description": "Project that takes in authentication and authorization with JWT and email verification, allows the user to upload images to their profile using multer.",
-            "image": "public/project1.png",
+            "image": "/project1.png",
             "github": "https://github.com/dreazz97/Authentication-Authorization-and-Image-Upload-WebAPP",
             "view": "",
             "technologies": [
@@ -40,7 +40,7 @@
         {
             "title": "Cheapest Fuel Prices API Project",
             "description": "This project provides information about the top 5 cheapest petrol and diesel spots in some counties of Portugal.",
-            "image": "public/project2.png",
+            "image": "/project2.png",
             "github": "https://github.com/dreazz97/combustiveis-react",
             "view": "https://dreazz97.github.io/combustiveis-react/",
             "technologies": [
