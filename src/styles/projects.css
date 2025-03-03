@@ -1,0 +1,23 @@
+#projects-title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#projects-title-container-text {
+    width: 61%;
+}
+
+#back-main-container {
+    display: flex;
+    justify-content: center;
+}
+
+#go-back-button-container {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+#card-container {
+    height: auto;
+}

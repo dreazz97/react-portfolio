@@ -1,0 +1,26 @@
+#about-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content-text-paragraph {
+    max-width: 760px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+#about-content-image {
+    border-radius: 30px;
+}
+
+#skills-title {
+    margin-bottom: 40px;
+}
+
+.button-container {
+    margin-top: 40px;
+}

@@ -1,0 +1,13 @@
+.outline-button {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.outline-button:hover {
+    background-color: #aaa3a3;
+    color: #fff;
+}

@@ -1,0 +1,21 @@
+#badges-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 760px;
+    gap: 10px;
+}
+
+#badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 12px;
+    padding: 0 10px;
+}
+
+#badge img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,70 @@
+{
+    "projects": [
+        {
+            "title": "Authentication and Authorization Project",
+            "description": "Project that takes in authentication and authorization with JWT and email verification, allows the user to upload images to their profile using multer.",
+            "image": "public/project1.png",
+            "github": "https://github.com/dreazz97/Authentication-Authorization-and-Image-Upload-WebAPP",
+            "view": "",
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                },
+                {
+                    "name": "CSS3",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                },
+                {
+                    "name": "JavaScript",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                },
+                {
+                    "name": "Bootstrap",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                },
+                {
+                    "name": "Node Js",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                },
+                {
+                    "name": "Express",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                },
+                {
+                    "name": "MongoDB",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                }
+            ]
+        },
+        {
+            "title": "Cheapest Fuel Prices API Project",
+            "description": "This project provides information about the top 5 cheapest petrol and diesel spots in some counties of Portugal.",
+            "image": "public/project2.png",
+            "github": "https://github.com/dreazz97/combustiveis-react",
+            "view": "https://dreazz97.github.io/combustiveis-react/",
+            "technologies": [
+                {
+                    "name": "React",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                },
+                {
+                    "name": "HTML5",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                },
+                {
+                    "name": "CSS3",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                },
+                {
+                    "name": "JavaScript",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                },
+                {
+                    "name": "Bootstrap",
+                    "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                }
+            ]
+        }
+    ]
+}

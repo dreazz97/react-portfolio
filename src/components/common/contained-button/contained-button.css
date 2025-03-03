@@ -1,0 +1,14 @@
+.contained-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contained-button:hover {
+    background-color: #000;
+}

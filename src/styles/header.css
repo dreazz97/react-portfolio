@@ -1,0 +1,23 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#logo-container {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+#logo:hover {
+    color: #000;
+}
